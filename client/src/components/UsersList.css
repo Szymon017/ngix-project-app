@@ -1,0 +1,27 @@
+/* src/styles/UsersList.css */
+.users-container {
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .user-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .user-item button:hover {
+    background-color: #c82333;
+  }
+  

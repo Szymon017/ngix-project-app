@@ -1,0 +1,27 @@
+/* src/styles/CarsList.css */
+.cars-container {
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .car-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .car-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .car-item button:hover {
+    background-color: #0056b3;
+  }
+  
